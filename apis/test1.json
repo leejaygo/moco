@@ -1,0 +1,15 @@
+[
+	{ 
+		"description": "这是一个借口",
+		"request": {
+	      	"method": "GET",
+	      	"uri": "/property"
+	    },
+		"response" : { 
+			"status": 200,
+		    "json": {
+		        "message": "Full authentication is required to access this resource"
+		    } 
+		}
+	}
+]
